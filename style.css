@@ -136,8 +136,8 @@ h1{
     align-items: center;
     margin: 150px 450px;
     background-color: #3882F6;
-    justify-content: space-between;
-    padding: 50px 150px;
+    justify-content: space-around;
+    padding: 50px;
     color:#E5E7EB;
     border-radius: 8px;
 }
@@ -145,20 +145,25 @@ h1{
 .cto-head{
     font-weight: bold;
     font-size: 24px;
-    text-align: center;
 }
 
 .cto-sign{
     color: #E5E7EB;
     background-color: #3882F6;
     border: 1px solid #E5E7EB;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 7px;
+    text-align: center;
+}
+
+.cto-text{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+
 }
 
 .footer{
